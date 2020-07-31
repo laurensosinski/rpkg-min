@@ -5,3 +5,10 @@ r:
   - oldrel
   - release
   - devel
+
+notifications:
+  email:
+    recipients:
+      -alerts+sosinsk7@msu.edu
+    on_success: change
+    on_failure: change
